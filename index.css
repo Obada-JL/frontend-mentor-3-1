@@ -1,0 +1,75 @@
+.body{
+  background-color: hsl(233, 47%, 7%);
+  
+}
+.contain{
+  align-items: center;
+  justify-content:center;
+  justify-items: center;
+  display: flex;
+}
+.container{
+ display: flex;
+ max-width: 1110px; 
+ height: 446px;
+ margin: 80px  
+ 
+}
+.p{
+ flex: 60%;
+ background-color: hsl(244, 38%, 16%);
+ border-top-left-radius: 7px;
+ border-bottom-left-radius: 7px;
+}
+.image{
+ background: linear-gradient(rgba(190, 27, 190, 0.7),rgba(190, 27, 190, 0.7)),
+ url(image-header-desktop.jpg);
+
+
+ position: relative;
+  opacity: 70%;
+ flex: 50%;
+ border-top-right-radius: 7px;
+ border-bottom-right-radius: 7px; 
+} 
+.p1{
+ color: white; 
+ font-size: 45px;  
+ padding: 10px 120px 0px 35px;
+}
+.b2{
+ color: rgb(190, 27, 190);
+}
+.p2{
+    color: grey;
+    padding: 0px 120px 35px 35px;
+    font-size: 18px;
+}
+.p3{
+    color: white;
+    padding: 20px 25px 15px 35px ;
+}
+.p4{
+    color: white;
+    padding: 20px 25px 15px 35px ;
+}
+.p5{
+    color: white;
+    padding: 20px 25px 15px 35px ;
+}
+.pcontainer{
+    display: flex;
+}
+.pap{
+    color: grey;
+   
+}
+.b8{
+    font-size: 25px;
+}
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+} 
+    
